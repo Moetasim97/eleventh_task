@@ -1,0 +1,194 @@
+body {
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+body.dark_theme {
+  background-color: #1d2029;
+  transition: 0.3s ease-in-out;
+}
+
+body.dark_theme .card_wrapper {
+  background-color: #252b43;
+}
+
+body.dark_theme .bottom_card_wrapper {
+  background-color: #252b43;
+}
+
+body.dark_theme h3 {
+  color: white;
+}
+
+body.dark_theme div {
+  color: white;
+}
+
+body.dark_theme p {
+  color: white;
+}
+
+.upper_Card {
+  margin-top: 20px;
+}
+
+.upper_border {
+  
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  top: 0px;
+}
+
+.toggler_col {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.toggle_desc {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fa-brands.fa-facebook-f {
+  color: white;
+  background-color: blue;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 17px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.rel_row {
+  position: relative;
+}
+
+.bi.bi-facebook {
+  color: white;
+  background-color: blue;
+  margin-top: 4px;
+}
+
+.card_wrapper {
+  padding-top: 1px;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 5px;
+  width: 250px;
+  background-color: whitesmoke;
+  position: relative;
+  box-sizing: initial;
+}
+
+.background_shade {
+  background-color: whitesmoke;
+  z-index: -1;
+  height: 220px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.bottom_card_wrapper {
+  box-sizing: border-box;
+  width: 95%;
+  height: 110px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+body.dark_theme .background_shade {
+  background-color: #20222f;
+}
+
+.fa-brands.fa-youtube {
+  color: white;
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.fa-brands.fa-instagram {
+  background-image: linear-gradient(red, yellow);
+  font-size: larger;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.fa-brands.fa-twitter {
+  color: rgb(47, 181, 234);
+  font-size: larger;
+}
+
+.first {
+  justify-content: end;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.checkbox {
+  display: none;
+  opacity: 0;
+}
+
+.labelClass {
+  background-image: linear-gradient(to right, skyblue, lightgreen);
+  width: 40px;
+  height: 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.secondary {
+  font-size: 14px;
+  margin-top: -10px;
+  letter-spacing: 3px;
+}
+
+.primary {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.toggle_ball {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.checkbox:checked + .labelClass .toggle_ball {
+  transform: translateX(20px);
+  transition: 0.3s;
+  background-color: #131356;
+}
+
+@media (max-width: 768px) {
+  .background_shade {
+    height: 260px;
+  }
+  .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .toggler_class {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .first {
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=styles.css.map */
